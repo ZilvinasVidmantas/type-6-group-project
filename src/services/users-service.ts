@@ -1,19 +1,27 @@
+import axios, { AxiosInstance } from 'axios';
 import { User } from '../types';
 
 const UsersService = new (class UsersService {
-  // eslint-disable-next-line class-methods-use-this
-  public fetch = async (): Promise<User[]> => {
-    const response = await fetch('http://localhost:5000/users');
-    const users = await response.json() as User[];
+  private requester: AxiosInstance;
 
-    return users;
+  constructor() {
+    this.requester = axios.create({
+      baseURL: 'http://localhost:5000',
+      timeout: 1000,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+  }
+
+  public fetch = async (): Promise<User[]> => {
+    const { data } = await this.requester.get<User[]>('/users');
+
+    return data;
   };
 
-  // eslint-disable-next-line class-methods-use-this
   public delete = async (id: string): Promise<void> => {
-    await fetch(`http://localhost:5000/users/${id}`, {
-      method: 'DELETE',
-    });
+    await this.requester.delete(`/users/${id}`);
   };
 })();
 
