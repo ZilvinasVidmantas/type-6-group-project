@@ -1,0 +1,34 @@
+# Audra po Kaldra
+* Gerardas Anusevičius
+Viktor Kruk
+Artiom Rumiancev
+Gerardas Barštys
+Indrė Sliužinskaitė
+
+# Kaštonų medžiotojai
+* Martynas Petrauskis
+Milda Pauzaitė
+Edvinas Petrauskas
+Mindaugas Greizė
+
+# Ambalai
+* Augustinas Vagnoris
+Egidijus Patrauskas
+Rokas Jazbutis
+Andrius Pocius
+
+#No-Lifers
+* Karolis Raubūnas
+Bogomil Zubrickij
+Milda Beržanskaitė
+Deimantė Brijūnienė
+
+1. Komandoms atskirai susitarti puslapio idėją [15]
+2. Komandos vadovai tariasi tarpusavį ir pasirenka puslapio idėją [10]
+3. Komandos vadovai pasiskirsto didelės apimties darbais, kurie bus atlikti iki primadienio [10]
+4. Bendrų projekto nuostatų sutarimas, RAŠTU. [30+]
+5. Task Planner'yje suformuoti smulkius darbus kiekvienai komandai atskirai [60+]
+6. Peržiūrėti video:
+  * https://www.youtube.com/watch?v=7wGQU37fyiI&ab_channel=Codecademy
+  * https://www.youtube.com/watch?v=9TycLR0TqFA&ab_channel=Uzility
+  * https://www.youtube.com/watch?v=USjZcfj8yxE&ab_channel=ColtSteele
