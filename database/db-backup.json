@@ -1,6 +1,12 @@
 {
   "users": [
     {
+      "id": "BCD037CB-D642-6557-9795-BAAEB25AE2D9",
+      "name": "Hanae Olson",
+      "phone": "(247) 325-6454",
+      "email": "mauris@yahoo.com"
+    },
+    {
       "id": "1CABB1E7-8C7E-7702-AE5A-01A6DB7F6239",
       "name": "Yen Hess",
       "phone": "1-512-675-8383",
@@ -26,6 +32,12 @@
     }
   ],
   "pets": [
+    {
+      "id": "BCD037CB-D642-6557-9795-BAAEB25AE2D9",
+      "name": "Karina",
+      "type": "Cat",
+      "userId": "BCD037CB-D642-6557-9795-BAAEB25AE2D9"
+    },
     {
       "id": "1CABB1E7-8C7E-7702-AE5A-01A6DB7F6239",
       "name": "Wynne",
