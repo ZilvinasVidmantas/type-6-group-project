@@ -1,12 +1,11 @@
-export type User = {
+export type Place = {
   id: string,
-  name: string,
-  phone: string,
-  email: string,
-};
-
-export type Pet = {
-  id: string,
-  name: string,
-  type: string,
+  category: string,
+  subcategory: string,
+  subimg: string,
+  title: string,
+  description: string,
+  address: string,
+  map: string,
+  img: string
 };
