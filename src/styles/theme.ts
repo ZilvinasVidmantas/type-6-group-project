@@ -4,7 +4,7 @@ const theme = createTheme();
 
 const createColor = (color: string): PaletteColor => theme.palette.augmentColor({ color: { main: color } });
 
-const lightTheme = createTheme({
+const customTheme = createTheme({
   palette: {
     red: createColor('#dd2222'),
     green: createColor('#22dd22'),
@@ -34,4 +34,4 @@ const lightTheme = createTheme({
   },
 }, theme);
 
-export default lightTheme;
+export default customTheme;
