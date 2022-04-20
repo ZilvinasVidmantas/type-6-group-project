@@ -1,13 +1,92 @@
 {
   "places": [
     {
-      "category": "",
-      "subcategory": "",
-      "subimg": "",
-      "title": "",
-      "address": "",
-      "map": "",
-      "img": ""
+      "id": "f1",
+      "category": "Food",
+      "subcategory": "Vegan",
+      "subimg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
+      "title": "Rosehip Vegan Bistro",
+      "description": "The meaning of “Rosehip” - not just local superfood berry, the wordplay hints on our style - pink and hip - modern and hipster atmosphere. In our restaurant we want to combine not only stylish interior, colorful food, good music, but also all the interesting people that work here and visit.",
+      "address": "B. Radvilaitės g. 7, Vilnius",
+      "map": "https://goo.gl/maps/tGXfnZMjB9kBZ2F79",
+      "img": "https://www.restoranai.lt/wp-content/uploads/2019/04/Rosehip-vegan-Bistro-1-1024x687.jpg"
+    },
+    {
+      "id": "f2",
+      "category": "Food",
+      "subcategory": "Vegan",
+      "subimg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
+      "title": "Holigans",
+      "description": "Local, eco, vegetarian and vegan restaurant ",
+      "address": "Verkių g. 29, Ogmios miestas, Vilnius",
+      "map": "https://goo.gl/maps/gheteiQnBrYDuUuk8",
+      "img": "https://www.restoranai.lt/wp-content/uploads/2019/05/holig.jpg"
+    },
+    {
+      "id": "f3",
+      "category": "Food",
+      "subcategory": "Vegan",
+      "subimg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
+      "title": "Vegafe",
+      "description": "We only offer a fresh-made meals from natural, non-processed and cruelty-free ingredients. We are following ayurvedic food preparation rules.",
+      "address": "Totorių g. 3, Vilnius",
+      "map": "https://goo.gl/maps/eAr56j3jM6ThsQVh9",
+      "img": "https://www.restoranai.lt/wp-content/uploads/2019/04/Vegafe-1-1024x683.jpg"
+    },
+    {
+      "id": "f4",
+      "category": "Food",
+      "subcategory": "Vegetarian",
+      "subimg": "https://images.unsplash.com/photo-1561043433-aaf687c4cf04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "title": "Ajurvedinė virtuvė",
+      "description": "It's a health food restaurant. It offers a healthy vegetarian lunch made from fresh, organic products every day.",
+      "address": "Saltoniškių g. 34a, Vilnius",
+      "map": "https://goo.gl/maps/4JhQtsJvcqv6Rmkt9",
+      "img": "https://www.restoranai.lt/wp-content/uploads/2019/05/arj.jpg"
+    },
+    {
+      "id": "f5",
+      "category": "Food",
+      "subcategory": "Vegetarian",
+      "subimg": "https://images.unsplash.com/photo-1561043433-aaf687c4cf04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "title": "Casa la Familia",
+      "description": "A vegetarian family pizzeria with Mediterranean flavors and daily lunch specials. Here, pizzas are baked in an authentic oven with burning firewood.",
+      "address": "Rūdninkų g. 18, Vilnius",
+      "map": "https://goo.gl/maps/Aixh2qPRnoyCtQkf9",
+      "img": "https://imageproxy.wolt.com/menu/menu-images/59cbd4432cee90172c97013e/857d26a4-502c-11eb-b523-4eee2a68c61b_9.casa_la_familia_product_4.jpeg"
+    },
+    {
+      "id": "f6",
+      "category": "Food",
+      "subcategory": "Meat",
+      "subimg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
+      "title": "Grill London",
+      "description": "Grill London is a chain of grill restaurants that visitors love because of its exceptional and responsible take on food quality. All of its steaks are grilled in unique ceramic grills using ecological fuels.",
+      "address": "Vilniaus g. 33, Vilnius",
+      "map": "https://goo.gl/maps/DewT8fkpvYZGezWJ9",
+      "img": "http://grilllondon.lt/wp-content/uploads/2016/04/D3X_9699-Edit-Edit.jpg"
+    },
+    {
+      "id": "f7",
+      "category": "Food",
+      "subcategory": "Meat",
+      "subimg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
+      "title": "Meat Lovers Pub",
+      "description": "Steakhouse and burgers",
+      "address": "Liejyklos g. 8, Vilnius",
+      "map": "https://goo.gl/maps/daE6WHHBsPcEW1yBA",
+      "img": "https://imageproxy.wolt.com/menu/menu-images/5c069744fd721d000ad53ac5/057b5ed8-50d3-11eb-9fbe-c66495d8343d_13.meat_lovers_products_3.jpeg"
+    },
+    {
+      "id": "f8",
+      "category": "Food",
+      "subcategory": "Meat",
+      "subimg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
+      "title": "Ramenas ir pagaliukai",
+      "description": "Japanese noodle Ramen bar",
+      "address": "L. Stuokos-Gucevičiaus g. 7, Vilnius",
+      "map": "https://goo.gl/maps/2HQndBDKp3Qaarsi9",
+      "img": "https://imageproxy.wolt.com/menu/menu-images/59e72843095d9e000c226e7f/a2033400-12f3-11ec-b871-567bd72c7efb_salmon.jpeg"
     }
   ]
 }
