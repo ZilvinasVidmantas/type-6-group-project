@@ -87,6 +87,72 @@
       "address": "L. Stuokos-Gucevičiaus g. 7, Vilnius",
       "map": "https://goo.gl/maps/2HQndBDKp3Qaarsi9",
       "img": "https://imageproxy.wolt.com/menu/menu-images/59e72843095d9e000c226e7f/a2033400-12f3-11ec-b871-567bd72c7efb_salmon.jpeg"
+    },
+    {
+      "id": "e1",
+      "category": "Entertainment",
+      "subcategory": "Water",
+      "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
+      "title": "Wake Inn",
+      "description": " Didžiausias pripučiamų vandens batutų parkų tinklas Lietuvoje WATER INN kviečia pramogauti ant vandens! Kliūčių ruožas, vandens batutai, laipynės, rungtynės su draugais ir nepamirštamos pramogos pasirinktame mieste! Kvieskite savo draugus, šeimos narius ar kolegas ir laisvalaikį praturtinkite nepamirštamomis pramogomis! ",
+      "address": "Ežeraičio g. 2, Vilnius 14200",
+      "map": "https://goo.gl/maps/293bpuxah1h2zKrKA",
+      "img": "https://wakeinn.lt/wp-content/uploads/2019/04/6.jpg"
+    },
+    {
+      "id": "e2",
+      "category": "Entertainment",
+      "subcategory": "Sport",
+      "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
+      "title": "Čiuožimas ledu",
+      "description": "Patirkite žiemos linksmybes su AKROPOLIO LEDU, kuris užtikrins maloniai šąlančias nosis ir geras emocijas visai šeimai!",
+      "address": "Ozo g. 25, Vilnius 08217",
+      "map": "https://goo.gl/maps/ESsuq17ePrRTeTjN8",
+      "img": "https://g4.dcdn.lt/images/pix/asociatyvi-nuotr-88624229.jpg"
+    },
+    {
+      "id": "e3",
+      "category": "Entertainment",
+      "subcategory": "Sport",
+      "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
+      "title": "Golfas",
+      "description": "The V Golf Club, tai golfo klubas, įsikūręs nuostabios lietuviškos gamtos apsuptoje Vilnius Grand Resort teritorijoje, kuriame žaisti golfą bus iššūkis tiek pradedantiesiems, tiek pažengusiems. ",
+      "address": "14247",
+      "map": "https://goo.gl/maps/1qyJFtuZo8oc8B8XA",
+      "img": "https://img.freepik.com/free-vector/modern-minimal-golfers-great-design-any-purposes-vector-illustration-abstract-different-men-with-golf-clubs_446974-48.jpg?w=2000"
+    },
+    {
+      "id": "e4",
+      "category": "Entertainment",
+      "subcategory": "Water",
+      "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
+      "title": "Vichi vandens parkas",
+      "description": "Čia vasara ir gera nuotaika niekada nesibaigia! ",
+      "address": "Ozo g. 14C, Vilnius 08200",
+      "map": "https://goo.gl/maps/A9MEq1kTW1KsqNhs9",
+      "img": "https://www.akvapark.lt/assets/Uploads/Images/Pamatykite.jpg"
+    },
+    {
+      "id": "e5",
+      "category": "Entertainment",
+      "subcategory": "Escape room",
+      "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
+      "title": "Exit Room",
+      "description": "Hey smartypants, up for a challenge?",
+      "address": "Žemaitijos g. 3, Vilnius 01134",
+      "map": "https://goo.gl/maps/VXinCi8Q4J9Vo5Pr8",
+      "img": "https://www.tiimiuritus.ee/assets/images/exitroom/protseduuridlogo.png"
+    },
+    {
+      "id": "e6",
+      "category": "Entertainment",
+      "subcategory": "Escape room",
+      "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
+      "title": "Insight Out ",
+      "description": "You may be smart, but how well can you think under pressure?",
+      "address": "Totorių g. 21a, Vilnius 01121",
+      "map": "https://g.page/InsightOut-lt?share",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipOM7JbXeM0eGVDVJSWnyXdB3u6m25RKSB_P3vh0"
     }
   ]
 }
