@@ -87,6 +87,116 @@
       "address": "L. Stuokos-Gucevičiaus g. 7, Vilnius",
       "map": "https://goo.gl/maps/2HQndBDKp3Qaarsi9",
       "img": "https://imageproxy.wolt.com/menu/menu-images/59e72843095d9e000c226e7f/a2033400-12f3-11ec-b871-567bd72c7efb_salmon.jpeg"
+    },
+    {
+      "id": "c1",
+      "category": "Culture",
+      "subcategory": "Museums",
+      "subimg": "https://madeinvilnius.lt/wp-content/uploads/2018/01/bigstock-National-Museum-Of-Lithuania-40055041-1024x682.jpg",
+      "title": "MO Museum",
+      "description": "MO Museum is a modern art museum in Vilnius, Lithuania. The collection of 5,000 modern and contemporary pieces contains major Lithuanian artworks from the 1950s to this day. ",
+      "address": "Pylimo g. 17, Vilnius",
+      "map": "https://goo.gl/maps/XiaSLBqQYJdxqWcd9",
+      "img": "https://welovelithuania.com/content/uploads/2018/09/Norbert-Tukaj_4.jpg"
+    },
+    {
+      "id": "c2",
+      "category": "Culture",
+      "subcategory": "Museums",
+      "subimg": "https://madeinvilnius.lt/wp-content/uploads/2018/01/bigstock-National-Museum-Of-Lithuania-40055041-1024x682.jpg",
+      "title": "House of Histories",
+      "description": "The House of Histories is a space which invites visitors to experience history not as something fixed in the past but as integral to the reality we are creating today.",
+      "address": "T. Kosciuškos g. 3, Vilnius",
+      "map": "https://goo.gl/maps/c4pn96Y7t53hhaN46",
+      "img": "https://lnm.lt/wp-content/uploads/2021/04/istoriju-namai-padalinys-6-1536x1152.jpg"
+    },
+    {
+      "id": "c3",
+      "category": "Culture",
+      "subcategory": "Museums",
+      "subimg": "https://madeinvilnius.lt/wp-content/uploads/2018/01/bigstock-National-Museum-Of-Lithuania-40055041-1024x682.jpg",
+      "title": "Gediminas Castle Tower",
+      "description": "Gediminas Castle Tower is the most frequently visited branch of the National Museum of Lithuania. Its exhibition invites visitors to learn about the history of Vilnius as the centre of the Grand Duchy of Lithuania, and also to take in the most spectacular panoramic view of the city.",
+      "address": "Arsenalo g. 5, Vilnius",
+      "map": "https://goo.gl/maps/RztNAdSs8UsTUKHf9",
+      "img": "https://www.govilnius.lt/images/5ea6aeeb4a97c4372591f47e?w=750&h=500"
+    },
+    {
+      "id": "c4",
+      "category": "Culture",
+      "subcategory": "Parks",
+      "subimg": "https://www.mzirafos.lt/wp-content/uploads/2019/07/DSC00564.jpg",
+      "title": "Bernardinai Garden",
+      "description": "The Bernardinai Garden is a public park in the city of Vilnius, Lithuania. It is located on the right bank of the Vilnia River between the Gediminas Tower and Bernardine Monastery and covers over 9 hectares (22 acres). Most of its territory is parkland, divided in the monastery exposition, the botanic exposition and other recreational territory including a children's amusement park. It hosts a variety of festivals and exhibitions, including an amateur chess championship of Ostap Bender.",
+      "address": "B. Radvilaitės g. 8A",
+      "map": "https://goo.gl/maps/a4wiBD5xWzDJzoWW9",
+      "img": "https://www.govilnius.lt/images/5e0f257e0cc3d9528c0d4985?w=750&h=500"
+    },
+    {
+      "id": "c5",
+      "category": "Culture",
+      "subcategory": "Parks",
+      "subimg": "https://www.mzirafos.lt/wp-content/uploads/2019/07/DSC00564.jpg",
+      "title": "Vingis Park",
+      "description": "Vingis Park is the largest park in Vilnius, Lithuania. Located in a curve of the Neris River, it covers 162 hectares (400 acres). A pedestrian bridge connects the park with Žvėrynas. It is used as a venue for various events, especially concerts and sports competitions. It contains a small botanical garden of Vilnius University, stadium, and an amphitheater.",
+      "address": "M. K. Čiurlionio g. 100, Vilnius",
+      "map": "https://goo.gl/maps/ddx1TU4zFRscVdCV9",
+      "img": "https://www.govilnius.lt/images/5e0f351f0cc3d959570d4a75?w=750&h=500"
+    },
+    {
+      "id": "c6",
+      "category": "Culture",
+      "subcategory": "Parks",
+      "subimg": "https://www.mzirafos.lt/wp-content/uploads/2019/07/DSC00564.jpg",
+      "title": "Lukiškės Square",
+      "description": "Lukiškės Square is the largest square (about 4 ha) in Vilnius, Lithuania, located in the center of the city. A major street in Vilnius, Gediminas Avenue, passes by the southern border of the square. It is surrounded by many public buildings, including Ministry of Finance, Ministry of Foreign affairs, Appeals Court, Academy of Music and Theater, Church of St. James and St. Phillip, Dominican Monastery with former St. Jacob Hospital. Currently the city of Vilnius holds a contest to redesign the square.",
+      "address": "Lukiškių aikštė",
+      "map": "https://goo.gl/maps/FYavDQksYh2xNWHS8",
+      "img": "https://www.vle.lt/tmp/vle-images/18014_1.jpg"
+    },
+    {
+      "id": "c7",
+      "category": "Culture",
+      "subcategory": "Galleries",
+      "subimg": "https://www.lndm.lt/wp-content/uploads/2020/05/NDG-2-1-scaled.jpg",
+      "title": "National Gallery of Art",
+      "description": "NGA is composed of 10 collection exposition halls, a Grand Exhibition Hall, Auditorium, Information Centre, Museum Education Centre, storages, administration premises, bookshop and café.",
+      "address": "Konstitucijos pr. 22, Vilnius",
+      "map": "https://goo.gl/maps/LPNG6qgKKRfcUvGP9",
+      "img": "https://www.lndm.lt/wp-content/uploads/2015/11/NDG.jpg"
+    },
+    {
+      "id": "c8",
+      "category": "Culture",
+      "subcategory": "Galleries",
+      "subimg": "https://www.lndm.lt/wp-content/uploads/2020/05/NDG-2-1-scaled.jpg",
+      "title": "Vilnius Picture Gallery",
+      "description": "The gallery is located in the ornate and spacious Chodkevičiai Palace, which features impressive late Classicism interiors. The gallery's permanent exhibition provides a comprehensive introduction to the development of Lithuanian art from the 16th century to the beginning of the 20th century. The collection of work from the 18th and 19th centuries from the Vilnius Art School is of particular value. The gallery regularly hosts exhibitions, cultural evenings and classical music concerts.",
+      "address": "Didžioji g. 4, Vilnius",
+      "map": "https://goo.gl/maps/kEVLWnHhcPGNzv1SA",
+      "img": "https://www.lndm.lt/wp-content/uploads/2015/11/LIMIS.jpg"
+    },
+    {
+      "id": "c9",
+      "category": "Culture",
+      "subcategory": "Cultural Heritage",
+      "subimg": "https://en.madeinvilnius.lt/wp-content/uploads/2019/03/Small-Ghetto-1024x780.jpg",
+      "title": "The Republic of Užupis",
+      "description": "Užupis is a neighborhood in Vilnius, the capital of Lithuania, largely located in Vilnius's old town,[1] a UNESCO World Heritage Site.In 1997, the residents of the area declared the Republic of Užupis, along with its own flag, unofficial currency, president, cabinet of ministers, a constitution written by Romas Lileikis and Tomas Čepaitis, an anthem, and an army of approximately 11 men.",
+      "address": "https://goo.gl/maps/rgt9gi7xdQgz4Rcu6",
+      "map": "Paupio g. 3A, Vilnius",
+      "img": "https://g1.dcdn.lt/images/pix/uzupis-79163269.jpg"
+    },
+    {
+      "id": "c10",
+      "category": "Culture",
+      "subcategory": "Cultural Heritage",
+      "subimg": "https://en.madeinvilnius.lt/wp-content/uploads/2019/03/Small-Ghetto-1024x780.jpg",
+      "title": "Church of St. Anne",
+      "description": "St. Anne's Church is a Roman Catholic church in Vilnius' Old Town, on the right bank of the Vilnia River established circa 1495-1500. It is a prominent example of both Flamboyant Gothic and Brick Gothic styles. St. Anne's is a prominent landmark in the Old Town of Vilnius that enabled the district to be included in the list of UNESCO World Heritage sites, and is one of the most interesting examples of Gothic architecture in Lithuania. ",
+      "address": "Maironio g. 8, Vilnius",
+      "map": "https://goo.gl/maps/zSBSPs65zav1S7JJ6",
+      "img": "https://www.govilnius.lt/images/5e260ccc4f5f2930e2c42467?w=750&h=500"
     }
   ]
 }
