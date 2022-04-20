@@ -1,12 +1,11 @@
 # CA type-6 group project
 
-* Install libraries:
+## Install libraries:
   * npm i
 
 
-* Lounch server:
+## Lounch server:
   * npm run server
 
-
-* Lounch client application:
+## Lounch client application:
   * npm run start
