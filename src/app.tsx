@@ -13,7 +13,6 @@ const App: React.FC = () => (
     <Routes>
       <Route path="/" element={<LandingPageLayout />}>
         <Route index element={<HomePage />} />
-        <Route path="buttons" element={<ButtonsPage />} />
       </Route>
     </Routes>
   </BrowserRouter>
