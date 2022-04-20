@@ -89,8 +89,8 @@
       "img": "https://imageproxy.wolt.com/menu/menu-images/59e72843095d9e000c226e7f/a2033400-12f3-11ec-b871-567bd72c7efb_salmon.jpeg"
     },
     {
-      "id": "c1",
-      "category": "Culture",
+      "id": "e1",
+      "category": "Entertainment",
       "subcategory": "Water",
       "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
       "title": "Wake Inn",
@@ -100,8 +100,8 @@
       "img": "https://wakeinn.lt/wp-content/uploads/2019/04/6.jpg"
     },
     {
-      "id": "c2",
-      "category": "Culture",
+      "id": "e2",
+      "category": "Entertainment",
       "subcategory": "Sport",
       "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
       "title": "Čiuožimas ledu",
@@ -111,8 +111,8 @@
       "img": "https://g4.dcdn.lt/images/pix/asociatyvi-nuotr-88624229.jpg"
     },
     {
-      "id": "c3",
-      "category": "Culture",
+      "id": "e3",
+      "category": "Entertainment",
       "subcategory": "Sport",
       "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
       "title": "Golfas",
@@ -122,8 +122,8 @@
       "img": "https://img.freepik.com/free-vector/modern-minimal-golfers-great-design-any-purposes-vector-illustration-abstract-different-men-with-golf-clubs_446974-48.jpg?w=2000"
     },
     {
-      "id": "c4",
-      "category": "Culture",
+      "id": "e4",
+      "category": "Entertainment",
       "subcategory": "Water",
       "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
       "title": "Vichi vandens parkas",
@@ -133,8 +133,8 @@
       "img": "https://www.akvapark.lt/assets/Uploads/Images/Pamatykite.jpg"
     },
     {
-      "id": "c5",
-      "category": "Culture",
+      "id": "e5",
+      "category": "Entertainment",
       "subcategory": "Escape room",
       "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
       "title": "Exit Room",
@@ -144,8 +144,8 @@
       "img": "https://www.tiimiuritus.ee/assets/images/exitroom/protseduuridlogo.png"
     },
     {
-      "id": "c6",
-      "category": "Culture",
+      "id": "e6",
+      "category": "Entertainment",
       "subcategory": "Escape room",
       "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
       "title": "Insight Out ",
