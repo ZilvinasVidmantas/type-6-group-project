@@ -1,34 +1,58 @@
-# Audra po Kaldra
-* Gerardas Anusevičius
-Viktor Kruk
-Artiom Rumiancev
-Gerardas Barštys
-Indrė Sliužinskaitė
+# Audra po Kaldra - SubCategory list
+* Gerardas Anusevičius - LEAD
+* Viktor Kruk - Servicų panaudojimas SubCategory puslapiui
+* Artiom Rumiancev - DB + Services
+* Gerardas Barštys - komponentų struktūra ir reikalingi prop'sai
+* Indrė Sliužinskaitė - komponentų struktūra ir reikalingi prop'sai
 
-# Kaštonų medžiotojai
-* Martynas Petrauskis
-Milda Pauzaitė
-Edvinas Petrauskas
-Mindaugas Greizė
+# Kaštonų medžiotojai - Home page
+* Martynas Petrauskis - LEAD
+* Milda Pauzaitė - komponentų struktūra ir reikalingi prop'sai
+* Edvinas Petrauskas - Servicų panaudojimas Home puslapiui
+* Mindaugas Greizė - komponentų struktūra ir reikalingi prop'sai
 
-# Ambalai
-* Augustinas Vagnoris
-Egidijus Patrauskas
-Rokas Jazbutis
-Andrius Pocius
+# Ambalai - Global components and theme settings
+* Augustinas Vagnoris - LEAD
+* Egidijus Patrauskas - Temos nustatymai ir tipai
+* Rokas Jazbutis - globalių komponentų kūrimas
+* Andrius Pocius - globalių komponentų kūrimas
 
-#No-Lifers
-* Karolis Raubūnas
-Bogomil Zubrickij
-Milda Beržanskaitė
-Deimantė Brijūnienė
+# No-Lifers - Category page
+* Karolis Raubūnas - LEAD
+* Bogomil Zubrickij - Servicų panaudojimas Category puslapiui
+* Milda Beržanskaitė - DB + Services
+* Deimantė Brijūnienė - komponentų struktūra ir reikalingi prop'sai
 
-1. Komandoms atskirai susitarti puslapio idėją [15]
-2. Komandos vadovai tariasi tarpusavį ir pasirenka puslapio idėją [10]
-3. Komandos vadovai pasiskirsto didelės apimties darbais, kurie bus atlikti iki primadienio [10]
-4. Bendrų projekto nuostatų sutarimas, RAŠTU. [30+]
-5. Task Planner'yje suformuoti smulkius darbus kiekvienai komandai atskirai [60+]
-6. Peržiūrėti video:
-  * https://www.youtube.com/watch?v=7wGQU37fyiI&ab_channel=Codecademy
-  * https://www.youtube.com/watch?v=9TycLR0TqFA&ab_channel=Uzility
-  * https://www.youtube.com/watch?v=USjZcfj8yxE&ab_channel=ColtSteele
+/*
+  --------------------------- Tribe Meats ---------------------- 
+  1. Kiekviena komanda susigalvoja savo puslapio išdėstymą
+  2. Kiekviena komanda suskaido savo puslapį komponentais
+  3. Kiekviena komanda turi susirašyti, kokių propsų reikės kiekvienam komponenetui
+  4. Kiekviena komanda turi susirašyti kokių duomenų reiks iš serverio
+  5. Darbų pasiskirstymas, pvz:
+    * Atskirtų komponentų/sekcijų kūrimas su dirbtiniais duomenimis
+    * duomenų formavimas
+    * service'ų kūrimas
+    * nuotraukų siuntimas
+    * informacijos pildymas
+  
+  ------------------ Tuo metu kol Tribe'ai dirba - vyksta Vadovų pasitarimas -------
+  0. git šakų vardinimo metodologija:
+    {grupės-šifras}-{užduoties-nr}-{užduties-aprašymas}
+  1. Navigacijos klausimų aptarimas, kaip vadinsis puslapių route'ai?
+    * Gerardas Anusevičius vadovas apisiema sudaryto route'us
+  2. Duomenų bazės tipai ir jų kūrimas
+    * Augustinas Vagnoris vadovas apsiema tipų aprašymų
+  3. Bendri temos nustatymai:
+    * breakpointai
+    * navbar aukštis
+    * spalvos
+    * šriftas
+    * ir t.t.
+  4. Po pasitarimo, turie pasidaryti dar vieną Tribe meet'ą ir pranešti pakitimus
+  5. Tie vadovai kurie neturi nurodytų darbų, ir juau yra patikrinę visus PullRequest'us gali imtis
+    bet kokių darbų.
+    
+
+*/
+
