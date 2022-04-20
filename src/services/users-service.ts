@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import { User } from '../types';
+// import { User } from '../types';
 
 const UsersService = new (class UsersService {
   private requester: AxiosInstance;

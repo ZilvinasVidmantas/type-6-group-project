@@ -1,4 +1,4 @@
-export type Place = {
+type Place = {
   id: string,
   category: string,
   subcategory: string,
@@ -9,3 +9,5 @@ export type Place = {
   map: string,
   img: string
 };
+
+export default Place;
