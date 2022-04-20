@@ -37,7 +37,7 @@ const customTheme = createTheme({
   },
 
   typography: {
-    fontFamily: '\'-apple-system\',\'BlinkMacSystemFont\'',
+    fontFamily: 'Open Sans, sans- serif',
   },
 }, theme);
 
