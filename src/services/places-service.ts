@@ -22,6 +22,12 @@ const PlacesService = new (class PlacesService {
     return data;
   };
 
+  public fetchById = async (id: string): Promise<Place> => {
+    const { data } = await this.api.get<Place>(`/places/${id}`);
+
+    return data;
+  };
+
   // senamadiškai
   // public fetch = async (): Promise<Place[]> => {
   //   const response = await fetch('http://localhost:5000/places');
