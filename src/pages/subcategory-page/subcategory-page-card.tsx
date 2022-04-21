@@ -13,13 +13,6 @@ type SubcategoryPageCardProps = {
   description: string,
 };
 
-const expand2 = (e: any) => {
-  const element = e.target;
-  if (!element) return;
-  const card = element.closest('.MuiCard-root');
-  card.classList.toggle('expanded');
-};
-
 const SubcategoryPageCard: React.FC<SubcategoryPageCardProps> = ({
   title, photo, location, id, description,
 }) => (
