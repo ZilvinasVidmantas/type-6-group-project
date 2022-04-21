@@ -1,6 +1,6 @@
 import { Container, Box } from '@mui/material';
 import React from 'react';
-import TouristAttraction from './tourist-attraction';
+import TouristAttraction from './subcategory-page-card';
 
 const meatPlaces = [
   {
