@@ -12,10 +12,10 @@ import FooterLink from './footer-link';
 
 const Footer: React.FC = () => (
   <Box sx={{
-    position: 'fixed', width: '100%', bgcolor: 'grey.900', bottom: '0',
+    position: 'fixed', width: '100%', bgcolor: 'grey.900', bottom: '0', overflow: 'hidden',
   }}
   >
-    <Container sx={{ px: { xs: 0, sm: 0 } }}>
+    <Container sx={{ px: { xs: 0, sm: 0 }, py: { xs: 1, sm: 1 } }}>
       <Box sx={(theme) => theme.mixins.navbar}>
         <Box>
           <FooterLink href="https://www.facebook.com/" target="_blank"><FacebookIcon /></FooterLink>
