@@ -1,6 +1,8 @@
 import { Container, Box } from '@mui/material';
 import React from 'react';
-import TouristAttraction from './tourist-attraction';
+import { useParams } from 'react-router-dom';
+import CustomContainer from '../../components/container/custom-container';
+import SubcategoryPageCard from './subcategory-page-card';
 
 const meatPlaces = [
   {
@@ -20,24 +22,23 @@ const meatPlaces = [
   },
 ];
 
-// import ListPageCard from '';
-// import placesData from '';
-
-const ListPage: React.FC = () => (
-  <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+const SubcategoryPage: React.FC = () => {
+  
+  const { categoryId, subcategoryId } = useParams();
+  
+  return (
+  <CustomContainer>
     {meatPlaces.map(({
       title, photo, location,
-    }) => (<TouristAttraction key={title} photo={photo} title={title} location={location} />))}
-  </Container>
-);
+    }) => (<SubcategoryPageCard key={title} photo={photo} title={title} location={location} />))}
+  </CustomContainer>
+)};
 
-export default ListPage;
+export default SubcategoryPage;
 
-// This is half-assed skeleton of the ListPage. Will be updated in the future.
 /*
   Needs:
-    * real name of the ListPageCard (Indre)
     * exact props which are needed for the ListPageCard
-    * subcategory data which comes from the other group (???) or somewhere else (who knows)
-    * maybe another global container and more style on it, according to our needs
+    * subcategory data which comes from fetch service by subcategoryId
+    * style on the CustomContainer, according to our needs
 */
