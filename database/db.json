@@ -4,19 +4,19 @@
       "categoryId": "food",
       "title": "Food",
       "description": "Food places in Vilnius",
-      "catImg": []
+      "catImg": "https://thumbs.dreamstime.com/b/fast-food-pattern-illustration-seamless-black-white-165395530.jpg"
     },
     {
       "categoryId": "entertainment",
       "title": "Entertainment",
       "description": "Entertainment in Vilnius",
-      "catImg": []
+      "catImg": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX26661547.jpg"
     },
     {
       "categoryId": "culture",
       "title": "Culture",
       "description": "Culture in Vilnius",
-      "catImg": []
+      "catImg": "https://img.freepik.com/free-vector/ethnic-baltic-folk-traditional-ornament-seamless-pattern-latvian-lithuanian-estonian-symbols_231786-3976.jpg?w=1800"
     }
   ],
   "subcategories": [
