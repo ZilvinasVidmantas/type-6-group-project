@@ -2,29 +2,20 @@ import '@mui/material';
 
 declare module '@mui/material/styles/createMixins' {
   interface Mixins {
+    // Norėdami įtraukti nują mixin pridėti jį čia. (naudokitės navbar kaip pvz)
     navbar: CSSProperties;
-    section: CSSProperties
+    section: CSSProperties;
   }
 }
 
 declare module '@mui/material/styles/createPalette' {
   interface PaletteOptions {
-    blue?: PaletteColorOptions;
-    red?: PaletteColorOptions;
-    green?: PaletteColorOptions;
+    // Norėdami pridėti naują spalvų paletės tipa pridėti jį čia (naudokitės specia kaip pvz)
+    special?: PaletteColorOptions;
   }
 
   interface Palette {
-    blue: PaletteColor;
-    red: PaletteColor;
-    green: PaletteColor;
-  }
-}
-
-declare module '@mui/material/Button' {
-  interface ButtonPropsColorOverrides {
-    blue: true;
-    red: true;
-    green: true;
+  // Norėdami pridėti naują spalvų paletės tipa pridėti jį čia (naudokitės specia kaip pvz)
+    special: PaletteColor;
   }
 }
