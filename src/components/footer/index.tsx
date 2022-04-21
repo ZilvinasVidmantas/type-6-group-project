@@ -12,7 +12,7 @@ import FooterLink from './footer-link';
 
 const Footer: React.FC = () => (
   <Box sx={{
-    position: 'absolute', width: '100%', bgcolor: 'grey.900', bottom: '0',
+    position: 'fixed', width: '100%', bgcolor: 'grey.900', bottom: '0',
   }}
   >
     <Container sx={{ px: { xs: 0, sm: 0 } }}>

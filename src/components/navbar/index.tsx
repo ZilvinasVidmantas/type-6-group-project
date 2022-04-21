@@ -3,6 +3,7 @@ import {
   AppBar,
   Container,
   Box,
+  Button,
 } from '@mui/material';
 
 import NavbarLink from './navbar-link';
@@ -14,7 +15,11 @@ const Navbar: React.FC = () => (
       <Box
         sx={(theme) => theme.mixins.navbar}
       >
-        <Logo size={40} />
+        <Button
+          href="/"
+        >
+          <Logo size={40} />
+        </Button>
         <Box sx={{ alignSelf: 'stretch' }}>
           <NavbarLink to="/food">FOOD</NavbarLink>
           <NavbarLink to="/entertainment">ENTERTAINMENT</NavbarLink>
