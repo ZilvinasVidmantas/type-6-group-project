@@ -3,13 +3,13 @@ import {
 } from '@mui/material';
 import React from 'react';
 
-type TouristAttractionProps = {
+type SubcategoryPageCardProps = {
   title: string,
   photo: string,
   location: string,
 };
 
-const TouristAttraction: React.FC<TouristAttractionProps> = ({
+const SubcategoryPageCard: React.FC<SubcategoryPageCardProps> = ({
   title, photo, location,
 }) => (
   <Paper elevation={4} sx={{ p: 6 }}>
@@ -50,4 +50,4 @@ const TouristAttraction: React.FC<TouristAttractionProps> = ({
   </Paper>
 );
 
-export default TouristAttraction;
+export default SubcategoryPageCard;
