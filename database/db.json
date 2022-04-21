@@ -213,8 +213,6 @@
     },
     {
       "id": "e2",
-      "category": "Entertainment",
-      "subcategory": "Sport",
       "title": "Čiuožimas ledu",
       "description": "Patirkite žiemos linksmybes su AKROPOLIO LEDU, kuris užtikrins maloniai šąlančias nosis ir geras emocijas visai šeimai!",
       "address": "Ozo g. 25, Vilnius 08217",
@@ -223,8 +221,6 @@
     },
     {
       "id": "e3",
-      "category": "Entertainment",
-      "subcategory": "Sport",
       "title": "Golfas",
       "description": "The V Golf Club, tai golfo klubas, įsikūręs nuostabios lietuviškos gamtos apsuptoje Vilnius Grand Resort teritorijoje, kuriame žaisti golfą bus iššūkis tiek pradedantiesiems, tiek pažengusiems. ",
       "address": "14247",
@@ -233,9 +229,6 @@
     },
     {
       "id": "e4",
-      "category": "Entertainment",
-      "subcategory": "Water",
-      "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
       "title": "Vichi vandens parkas",
       "description": "Čia vasara ir gera nuotaika niekada nesibaigia! ",
       "address": "Ozo g. 14C, Vilnius 08200",
@@ -244,8 +237,6 @@
     },
     {
       "id": "e5",
-      "category": "Entertainment",
-      "subcategory": "Escape room",
       "title": "Exit Room",
       "description": "Hey smartypants, up for a challenge?",
       "address": "Žemaitijos g. 3, Vilnius 01134",
@@ -254,8 +245,6 @@
     },
     {
       "id": "e6",
-      "category": "Entertainment",
-      "subcategory": "Escape room",
       "title": "Insight Out ",
       "description": "You may be smart, but how well can you think under pressure?",
       "address": "Totorių g. 21a, Vilnius 01121",
