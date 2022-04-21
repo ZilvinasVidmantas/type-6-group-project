@@ -1,35 +1,37 @@
+import { Container, Box } from '@mui/material';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { CssBaseline, ThemeProvider } from '@mui/material';
-import App from './app';
-import theme from '../../theme';
+import TouristAttraction from './tourist-attraction';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
-
-
-// import { Container } from '@mui/material';
-// import React from 'react';
+const meatPlaces = [
+  {
+    title: 'Restaurant Lokys',
+    photo: 'https://www.tourtravelhotels.com/wp-content/uploads/2021/05/Restaurant-Lokys.jpg',
+    location: 'Stikliu str. 8, Vilnius',
+  },
+  {
+    title: 'Bistro 18',
+    photo: 'https://media-cdn.tripadvisor.com/media/photo-s/01/ed/ea/00/bistro-18.jpg',
+    location: 'Stiklių str. 18, Vilnius',
+  },
+  {
+    title: 'Meat Lovers Pub',
+    photo: 'https://media-cdn.tripadvisor.com/media/photo-s/02/c5/3a/88/meat-lovers-pub.jpg',
+    location: 'Šv.Ignoto g. 14, Vilnius',
+  },
+];
 
 // import ListPageCard from '';
 // import placesData from '';
 
-// const ListPage: React.FC = () => (
-//   <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-//     {placesData.map(({
-//       title, photo, location, id, description,
-//     }) => (<ListPageCard key={id} photo={photo} title={title} location={location} description={description} />))}
-//   </Container>
-// );
+const ListPage: React.FC = () => (
+  <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    {meatPlaces.map(({
+      title, photo, location,
+    }) => (<TouristAttraction key={title} photo={photo} title={title} location={location} />))}
+  </Container>
+);
 
-// export default ListPage;
+export default ListPage;
 
 // This is half-assed skeleton of the ListPage. Will be updated in the future.
 /*
