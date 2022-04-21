@@ -1,5 +1,6 @@
 import { Container, Box } from '@mui/material';
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import CustomContainer from '../../components/container/custom-container';
 import SubcategoryPageCard from './subcategory-page-card';
 
@@ -21,17 +22,20 @@ const meatPlaces = [
   },
 ];
 
-const SubcategoryPage: React.FC = () => (
+const SubcategoryPage: React.FC = () => {
+  
+  const { categoryId, subcategoryId } = useParams();
+  
+  return (
   <CustomContainer>
     {meatPlaces.map(({
       title, photo, location,
     }) => (<SubcategoryPageCard key={title} photo={photo} title={title} location={location} />))}
   </CustomContainer>
-);
+)};
 
 export default SubcategoryPage;
 
-// This is half-assed skeleton of the ListPage. Will be updated in the future.
 /*
   Needs:
     * exact props which are needed for the ListPageCard
