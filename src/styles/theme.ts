@@ -32,6 +32,10 @@ const customTheme = createTheme({
       alignItems: 'center',
       height: 56,
     },
+    // Žmogui kuris kurs section, bendrinį jo stilių aprašyti čia.
+    section: {
+      padding: 1,
+    },
   },
 
   typography: {
