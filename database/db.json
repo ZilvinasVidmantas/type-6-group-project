@@ -1,27 +1,27 @@
 {
   "categories": [
     {
-      "id": "food",
+      "categoryId": "food",
       "title": "Food",
       "description": "Food places in Vilnius",
-      "catImg": []
+      "catImg": "https://thumbs.dreamstime.com/b/fast-food-pattern-illustration-seamless-black-white-165395530.jpg"
     },
     {
-      "id": "entertainment",
+      "categoryId": "entertainment",
       "title": "Entertainment",
       "description": "Entertainment in Vilnius",
-      "catImg": []
+      "catImg": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX26661547.jpg"
     },
     {
-      "id": "culture",
+      "categoryId": "culture",
       "title": "Culture",
       "description": "Culture in Vilnius",
-      "catImg": []
+      "catImg": "https://img.freepik.com/free-vector/ethnic-baltic-folk-traditional-ornament-seamless-pattern-latvian-lithuanian-estonian-symbols_231786-3976.jpg?w=1800"
     }
   ],
   "subcategories": [
     {
-      "id": "vegan",
+      "subcategoryId": "vegan",
       "categoryId": "food",
       "title": "Vegan",
       "description": "Vegan places in Vilnius",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "id": "vegetarian",
+      "subcategoryId": "vegetarian",
       "categoryId": "food",
       "title": "Vegetarian",
       "description": "Vegetarian places in Vilnius",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": "meat",
+      "subcategoryId": "meat",
       "categoryId": "food",
       "title": "Meat",
       "description": "Meat places in Vilnius",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "museums",
+      "subcategoryId": "museums",
       "categoryId": "culture",
       "title": "Museums",
       "description": "Museums in Vilnius",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "parks",
+      "subcategoryId": "parks",
       "categoryId": "culture",
       "title": "Parks",
       "description": "Parks in Vilnius",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "id": "galleries",
+      "subcategoryId": "galleries",
       "categoryId": "culture",
       "title": "Galleries",
       "description": "Galleries in Vilnius",
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "id": "cultural-heritage",
+      "subcategoryId": "cultural-heritage",
       "categoryId": "culture",
       "title": "Cultural Heritage",
       "description": "Vilnius Cultural Heritage",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": "water",
+      "subcategoryId": "water",
       "categoryId": "entertainment",
       "title": "Water activities",
       "description": "Water activities in Vilnius",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": "sports",
+      "subcategoryId": "sports",
       "categoryId": "entertainment",
       "title": "Sports",
       "description": "Get moving in Vilnius!",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": "escape-room",
+      "subcategoryId": "escape-room",
       "categoryId": "entertainment",
       "title": "Escape room",
       "description": "Up for a mental challenge?!",
