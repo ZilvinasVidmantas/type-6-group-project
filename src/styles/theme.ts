@@ -1,7 +1,5 @@
 import { createTheme } from '@mui/material';
 
-const theme = createTheme();
-
 const customTheme = createTheme({
   palette: {
     primary: {
@@ -39,6 +37,6 @@ const customTheme = createTheme({
   typography: {
     fontFamily: 'Open Sans, sans- serif',
   },
-}, theme);
+});
 
 export default customTheme;
