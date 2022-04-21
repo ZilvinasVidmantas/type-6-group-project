@@ -39,6 +39,6 @@ export default SubcategoryPage;
 /*
   Needs:
     * exact props which are needed for the ListPageCard
-    * subcategory data which comes from the other group (???) or somewhere else (who knows)
+    * subcategory data which comes from fetch service by subcategoryId
     * style on the CustomContainer, according to our needs
 */
