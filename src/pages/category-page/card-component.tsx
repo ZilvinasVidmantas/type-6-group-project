@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Box, CardActionArea } from '@mui/material';
 
-const ChoiceCard: React.FC = () => (
+const CategoryCard: React.FC = () => (
   <Box sx={{ display: 'flex', flexDirection: 'row', gap: '35px' }}>
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
@@ -65,4 +65,4 @@ const ChoiceCard: React.FC = () => (
   </Box>
 );
 
-export default ChoiceCard;
+export default CategoryCard;
