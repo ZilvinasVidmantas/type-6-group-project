@@ -103,6 +103,39 @@
         "c9",
         "c10"
       ]
+    },
+    {
+      "id": "water",
+      "categoryId": "entertainment",
+      "title": "Water",
+      "description": "Water activities in Vilnius",
+      "subcatImg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
+      "places": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "id": "sports",
+      "categoryId": "entertainment",
+      "title": "Sports",
+      "description": "Get moving in Vilnius!",
+      "subcatImg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
+      "places": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "id": "escape-room",
+      "categoryId": "entertainment",
+      "title": "Escape room",
+      "description": "Up for a mental challenge?!",
+      "subcatImg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
+      "places": [
+        "e5",
+        "e6"
+      ]
     }
   ],
   "places": [
@@ -172,9 +205,6 @@
     },
     {
       "id": "e1",
-      "category": "Entertainment",
-      "subcategory": "Water",
-      "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
       "title": "Wake Inn",
       "description": " Didžiausias pripučiamų vandens batutų parkų tinklas Lietuvoje WATER INN kviečia pramogauti ant vandens! Kliūčių ruožas, vandens batutai, laipynės, rungtynės su draugais ir nepamirštamos pramogos pasirinktame mieste! Kvieskite savo draugus, šeimos narius ar kolegas ir laisvalaikį praturtinkite nepamirštamomis pramogomis! ",
       "address": "Ežeraičio g. 2, Vilnius 14200",
@@ -185,7 +215,6 @@
       "id": "e2",
       "category": "Entertainment",
       "subcategory": "Sport",
-      "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
       "title": "Čiuožimas ledu",
       "description": "Patirkite žiemos linksmybes su AKROPOLIO LEDU, kuris užtikrins maloniai šąlančias nosis ir geras emocijas visai šeimai!",
       "address": "Ozo g. 25, Vilnius 08217",
@@ -196,7 +225,6 @@
       "id": "e3",
       "category": "Entertainment",
       "subcategory": "Sport",
-      "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
       "title": "Golfas",
       "description": "The V Golf Club, tai golfo klubas, įsikūręs nuostabios lietuviškos gamtos apsuptoje Vilnius Grand Resort teritorijoje, kuriame žaisti golfą bus iššūkis tiek pradedantiesiems, tiek pažengusiems. ",
       "address": "14247",
@@ -218,7 +246,6 @@
       "id": "e5",
       "category": "Entertainment",
       "subcategory": "Escape room",
-      "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
       "title": "Exit Room",
       "description": "Hey smartypants, up for a challenge?",
       "address": "Žemaitijos g. 3, Vilnius 01134",
@@ -229,7 +256,6 @@
       "id": "e6",
       "category": "Entertainment",
       "subcategory": "Escape room",
-      "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
       "title": "Insight Out ",
       "description": "You may be smart, but how well can you think under pressure?",
       "address": "Totorių g. 21a, Vilnius 01121",
