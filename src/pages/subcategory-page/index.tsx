@@ -1,12 +1,5 @@
 import { Container, Box } from '@mui/material';
 import React from 'react';
-<<<<<<< HEAD:src/pages/subcategory-page/index.tsx
-import TouristAttraction from './subcategory-page-card';
-=======
-import { useParams } from 'react-router-dom';
-import CustomContainer from '../../components/container/custom-container';
-import SubcategoryPageCard from './subcategory-page-card';
->>>>>>> master:src/pages/list-page/index.tsx
 
 const meatPlaces = [
   {
