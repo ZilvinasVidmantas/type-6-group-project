@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 import { Outlet } from 'react-router-dom';
 import Navbar from './navbar';
 
-const LandingPageLayout: React.FC = () => (
+const MainLayout: React.FC = () => (
   <>
     <Navbar />
     <Box component="main">
@@ -12,4 +12,4 @@ const LandingPageLayout: React.FC = () => (
   </>
 );
 
-export default LandingPageLayout;
+export default MainLayout;

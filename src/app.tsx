@@ -6,15 +6,17 @@ import {
 } from 'react-router-dom';
 
 import HomePage from './pages/home-page';
-import LandingPageLayout from './components/landing-page-layout';
-import ListPage from './pages/list-page';
+import CategoryPage from './pages/category-page';
+import SubcategoryPage from './pages/subcategory-page';
+import MainLayout from './components/main-layout';
 
 const App: React.FC = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<LandingPageLayout />}>
+      <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
-        <Route path="test" element={<ListPage />} />
+        <Route path="/:categoryId" element={<CategoryPage />} />
+        <Route path="/:categoryId/:subcategoryId" element={<SubcategoryPage />} />
       </Route>
     </Routes>
   </BrowserRouter>
