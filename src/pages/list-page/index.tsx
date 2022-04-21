@@ -1,18 +1,35 @@
-import { Container } from '@mui/material';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import App from './app';
+import theme from '../../theme';
 
-import ListPageCard from '';
-import placesData from '';
-
-const ListPage: React.FC = () => (
-  <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    {placesData.map(({
-      title, photo, location, id, description,
-    }) => (<ListPageCard key={id} photo={photo} title={title} location={location} description={description} />))}
-  </Container>
+ReactDOM.render(
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>,
+  document.getElementById('root'),
 );
 
-export default ListPage;
+
+// import { Container } from '@mui/material';
+// import React from 'react';
+
+// import ListPageCard from '';
+// import placesData from '';
+
+// const ListPage: React.FC = () => (
+//   <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+//     {placesData.map(({
+//       title, photo, location, id, description,
+//     }) => (<ListPageCard key={id} photo={photo} title={title} location={location} description={description} />))}
+//   </Container>
+// );
+
+// export default ListPage;
 
 // This is half-assed skeleton of the ListPage. Will be updated in the future.
 /*
