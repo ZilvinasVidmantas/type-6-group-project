@@ -2,6 +2,15 @@ import { createTheme } from '@mui/material';
 
 const customTheme = createTheme({
   palette: {
+    // Norėdami pridėti naują spalvų paletę pridėti ją čia ir theme.d.ts faile (naudokite special kaip pvz)
+
+    // Formatas:
+    // spalvosPaletesPavadinimas: {
+    //   main: 'spalva',
+    //   light: 'spalva',
+    //   dark: 'spalva',
+    // }
+
     primary: {
       main: '#30AADD',
       light: '#00FFC6',
@@ -20,12 +29,14 @@ const customTheme = createTheme({
       dark: '#051367',
     },
 
+    // Default background spalva
     background: {
       default: '#fafafa',
     },
   },
 
   mixins: {
+    // Norėdami sukurti naują mixin pridėti jį čia ir theme.d.ts faile (naudotis navbar kaip pvz)
     navbar: {
       display: 'flex',
       justifyContent: 'space-between',
