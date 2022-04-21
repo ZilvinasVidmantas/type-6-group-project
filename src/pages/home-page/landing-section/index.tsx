@@ -1,10 +1,11 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
+import CustomContainer from '../../../components/container/custom-container';
 
 const HomePageLandingSection: React.FC = () => (
-  <Box>
+  <CustomContainer>
     <Typography component="h1" variant="h1">Home Page Landing Section</Typography>
-  </Box>
+  </CustomContainer>
 );
 
 export default HomePageLandingSection;
