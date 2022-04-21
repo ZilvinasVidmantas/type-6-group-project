@@ -1,40 +1,32 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import CustomContainer from '../../../components/container/custom-container';
+import LandingSectionTypographyVilnius from '../components/landing-section-typography-Vilnius';
 
 const HomePageLandingSection: React.FC = () => (
   <CustomContainer>
     <Box component="section" sx={{ height: '100vh', textAlign: 'center' }}>
-      <Typography
-        fontWeight="400"
-        component="h1"
-        variant="h1"
-        sx={{
-          display: 'inline-block',
-          borderBottom: 2,
-          borderColor: 'common.black',
-          color: 'primary.main',
-          fontSize: '110px',
-          fontWeight: 700,
-          pt: 13,
-          pb: 1,
-          px: 12,
-          mb: 2,
-          textShadow: '0px 0px 8px #141313',
-        }}
-      >
-        VILNIUS
-      </Typography>
+      <LandingSectionTypographyVilnius />
       <Typography
         fontWeight="400"
         component="h1"
         variant="h3"
         sx={{
           fontWeight: 400,
+          mb: 12,
         }}
       >
         Explore together!!
       </Typography>
+
+      <Button
+        variant="contained"
+        size="large"
+        endIcon={<ArrowDownwardIcon />}
+      >
+        Start
+      </Button>
     </Box>
   </CustomContainer>
 );
