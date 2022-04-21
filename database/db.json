@@ -21,7 +21,7 @@
   ],
   "subcategories": [
     {
-      "id": "sub1",
+      "id": "vegan",
       "categoryId": "food",
       "title": "Vegan",
       "description": "Vegan places in Vilnius",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "id": "sub2",
+      "id": "vegetarian",
       "categoryId": "food",
       "title": "Vegetarian",
       "description": "Vegetarian places in Vilnius",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": "sub3",
+      "id": "meat",
       "categoryId": "food",
       "title": "Meat",
       "description": "Meat places in Vilnius",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "sub4",
+      "id": "museums",
       "categoryId": "culture",
       "title": "Museums",
       "description": "Museums in Vilnius",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "sub5",
+      "id": "parks",
       "categoryId": "culture",
       "title": "Parks",
       "description": "Parks in Vilnius",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "id": "sub6",
+      "id": "galleries",
       "categoryId": "culture",
       "title": "Galleries",
       "description": "Galleries in Vilnius",
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "id": "sub7",
+      "id": "cultural-heritage",
       "categoryId": "culture",
       "title": "Cultural Heritage",
       "description": "Vilnius Cultural Heritage",
