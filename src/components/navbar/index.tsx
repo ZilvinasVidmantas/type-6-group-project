@@ -16,9 +16,9 @@ const Navbar: React.FC = () => (
       >
         <Logo size={40} />
         <Box sx={{ alignSelf: 'stretch' }}>
-          <NavbarLink to="/">FOOD</NavbarLink>
-          <NavbarLink to="/buttons">ENTERTAINMENT</NavbarLink>
-          <NavbarLink to="/buttons">CULTURE</NavbarLink>
+          <NavbarLink to="/food">FOOD</NavbarLink>
+          <NavbarLink to="/entertainment">ENTERTAINMENT</NavbarLink>
+          <NavbarLink to="/culture">CULTURE</NavbarLink>
         </Box>
       </Box>
     </Container>
