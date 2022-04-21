@@ -2,17 +2,39 @@ import {
   Card, CardContent, CardMedia, Typography, Paper,
 } from '@mui/material';
 import React from 'react';
+import expand from '../../helpers/subcategory-page-card-expander';
 
 type SubcategoryPageCardProps = {
+  id: string,
   title: string,
   photo: string,
   location: string,
 };
 
 const SubcategoryPageCard: React.FC<SubcategoryPageCardProps> = ({
-  title, photo, location,
+  title, photo, location, id,
 }) => (
-  <Paper elevation={4} sx={{ p: 6 }}>
+  <Paper
+    onClick={(e) => expand(e)}
+    id={id}
+    className="card"
+    elevation={4}
+    sx={{
+      p: 6,
+
+      '&.expand': {
+        height: 600,
+        width: '500px',
+        justifySelf: 'center',
+        position: 'absolute',
+        top: 100,
+      },
+      '&.hide': {
+        opacity: 0,
+        transform: 'translateY(820px)',
+      },
+    }}
+  >
     <Card sx={{
       border: 'none',
       boxShadow: 'none',
