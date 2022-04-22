@@ -7,10 +7,9 @@ const CustomContainer: React.FC = ({ children }) => (
       display: 'flex',
       flexWrap: 'wrap',
       gap: 3,
-      maxWidth: '1200px',
-      paddingLeft: '1rem',
-      paddingRight: '1rem',
-      margin: 'auto',
+      maxWidth: 1200,
+      px: 2,
+      mx: 'auto',
     }}
   >
     {children}
