@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect, MouseEventHandler } from 'react';
 import { useParams } from 'react-router-dom';
 import CustomContainer from '../../components/container/custom-container';
 import SubcategoryPageCard from './subcategory-page-card';
 
-const meatPlaces = [
+type SelectedPlace = {
+  id: string,
+  selected?: boolean
+};
 
+const meatPlaces = [
   {
     id: '1',
     title: 'Restaurant Lokys',
@@ -28,8 +32,39 @@ const meatPlaces = [
   },
 ];
 
+const initSelectedPlaces: SelectedPlace[] = meatPlaces.map(({ id }) => ({ id }));
+
 const SubcategoryPage: React.FC = () => {
   const { categoryId, subcategoryId } = useParams();
+  const [selectedPlaces, setSelectedPlaces] = useState(initSelectedPlaces);
+
+  const handlePlaceClick = (clickedPlaceId: string): void => {
+    const selectedPlace = selectedPlaces.find((x) => x.selected);
+
+    if (!selectedPlace) {
+      setSelectedPlaces(initSelectedPlaces.map(({ id }) => ({
+        id,
+        selected: id === clickedPlaceId,
+      })));
+    }
+  };
+
+  useEffect(() => {
+    const handleOffClick = (e: MouseEvent) => {
+      console.log(e.target);
+      const selectedPlace = selectedPlaces.find((x) => x.selected);
+
+      if (selectedPlace) {
+        setSelectedPlaces(initSelectedPlaces);
+      }
+    };
+
+    window.addEventListener('click', handleOffClick);
+
+    return () => {
+      window.removeEventListener('click', handleOffClick);
+    };
+  }, [selectedPlaces]);
 
   return (
     <CustomContainer>
@@ -43,6 +78,8 @@ const SubcategoryPage: React.FC = () => {
           title={title}
           location={location}
           description={description}
+          onClick={handlePlaceClick}
+          active={selectedPlaces.find((x) => x.id === id)?.selected}
         />
       ))}
     </CustomContainer>
