@@ -1,41 +1,28 @@
 import {
-  Card, CardContent, CardMedia, Typography, Paper,
+  Box, Card, CardContent, CardMedia, Typography,
 } from '@mui/material';
 import React from 'react';
 import expand from '../../helpers/subcategory-page-card-expander';
+import SubcategoryPageButton from '../../components/subcategory-page-button';
 
 type SubcategoryPageCardProps = {
   id: string,
   title: string,
   photo: string,
   location: string,
+  description: string,
 };
 
 const SubcategoryPageCard: React.FC<SubcategoryPageCardProps> = ({
-  title, photo, location, id,
+  title, photo, location, id, description,
 }) => (
-  <Paper
-    onClick={(e) => expand(e)}
+  <Card
     id={id}
     className="card"
-    elevation={4}
+    onClick={(e) => expand(e)}
     sx={{
-      p: 6,
-
-      '&.expand': {
-        height: 600,
-        width: '500px',
-        justifySelf: 'center',
-        position: 'absolute',
-        top: 100,
-      },
-      '&.hide': {
-        opacity: 0,
-        transform: 'translateY(820px)',
-      },
-    }}
-  >
-    <Card sx={{
+      marginTop: '2rem',
+      width: '300px',
       border: 'none',
       boxShadow: 'none',
       borderRadius: '2px',
@@ -43,33 +30,61 @@ const SubcategoryPageCard: React.FC<SubcategoryPageCardProps> = ({
         transform: 'scale(1.1) perspective(0px)',
         transition: 'transform .2s ease-out',
       },
+      '&.expand': {
+        height: '600px',
+        width: '500px',
+        margin: '2rem auto 0 auto',
+        '& .description': {
+          display: 'block',
+        },
+      },
+      '&.hide': {
+        display: 'none',
+      },
     }}
-    >
-      <CardMedia component="img" height="120" image={photo} />
-      <CardContent>
+  >
+    <CardMedia component="img" height="120" image={photo} />
+    <CardContent>
+      <Typography
+        component="h2"
+        variant="h5"
+        sx={{
+          textAlign: 'center',
+          textTransform: 'uppercase',
+        }}
+      >
+        {title}
+      </Typography>
+      <Typography
+        component="h3"
+        variant="body1"
+        sx={{
+          textAlign: 'center',
+        }}
+      >
+        {location}
+      </Typography>
+      <Box
+        className="description"
+        sx={{
+          display: 'none',
+          paddingTop: '1rem',
+        }}
+      >
+        <SubcategoryPageButton />
         <Typography
-          component="h2"
-          variant="h4"
+          component="p"
+          variant="body2"
           sx={{
-            textAlign: 'center',
-            textTransform: 'uppercase',
-            //   fontFamily: 'Cinzel Decorative',
+            marginTop: '1rem',
+            textAlign: 'justify',
           }}
         >
-          {title}
+          {description}
         </Typography>
-        <Typography
-          component="h3"
-          variant="h5"
-          sx={{
-            textAlign: 'center',
-          }}
-        >
-          {location}
-        </Typography>
-      </CardContent>
-    </Card>
-  </Paper>
+      </Box>
+    </CardContent>
+  </Card>
 );
 
 export default SubcategoryPageCard;
