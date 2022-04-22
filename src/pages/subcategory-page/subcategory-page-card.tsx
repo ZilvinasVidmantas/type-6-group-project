@@ -1,9 +1,9 @@
 import {
-  Box, Card, CardActionArea, CardContent, CardMedia, Typography,
+  Box, Card, CardContent, CardMedia, Typography,
 } from '@mui/material';
 import React from 'react';
 import expand from '../../helpers/subcategory-page-card-expander';
-import Button1 from '../../components/subcategory-button';
+import SubcategoryPageButton from '../../components/subcategory-page-button';
 
 type SubcategoryPageCardProps = {
   id: string,
@@ -71,7 +71,7 @@ const SubcategoryPageCard: React.FC<SubcategoryPageCardProps> = ({
           paddingTop: '1rem',
         }}
       >
-        <Button1 />
+        <SubcategoryPageButton />
         <Typography
           component="p"
           variant="body2"

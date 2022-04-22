@@ -1,4 +1,4 @@
-type Place = {
+type DatabaseData = {
   id: string,
   category: string,
   subcategory: string,
@@ -10,4 +10,4 @@ type Place = {
   img: string
 };
 
-export default Place;
+export default DatabaseData;
