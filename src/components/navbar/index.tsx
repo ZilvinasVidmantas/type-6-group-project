@@ -10,19 +10,10 @@ import NavbarLink from './navbar-link';
 import Logo from '../logo';
 
 const Navbar: React.FC = () => (
-  <AppBar
-    position="sticky"
-    sx={{
-      bgcolor: 'grey.900', overflow: 'hidden',
-    }}
-  >
+  <AppBar position="sticky" sx={{ bgcolor: 'grey.900', overflow: 'hidden' }}>
     <Container sx={{ px: { xs: 0, sm: 0 } }}>
-      <Box
-        sx={(theme) => theme.mixins.navbar}
-      >
-        <Button
-          href="/"
-        >
+      <Box sx={(theme) => theme.mixins.navbar}>
+        <Button href="/">
           <Logo size={40} />
         </Button>
         <Box sx={{ alignSelf: 'stretch' }}>
