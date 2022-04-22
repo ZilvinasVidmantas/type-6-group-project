@@ -1,158 +1,335 @@
 {
+  "categories": [
+    {
+      "categoryId": "food",
+      "title": "Food",
+      "description": "Food places in Vilnius",
+      "catImg": "https://thumbs.dreamstime.com/b/fast-food-pattern-illustration-seamless-black-white-165395530.jpg"
+    },
+    {
+      "categoryId": "entertainment",
+      "title": "Entertainment",
+      "description": "Entertainment in Vilnius",
+      "catImg": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX26661547.jpg"
+    },
+    {
+      "categoryId": "culture",
+      "title": "Culture",
+      "description": "Culture in Vilnius",
+      "catImg": "https://img.freepik.com/free-vector/ethnic-baltic-folk-traditional-ornament-seamless-pattern-latvian-lithuanian-estonian-symbols_231786-3976.jpg?w=1800"
+    }
+  ],
+  "subcategories": [
+    {
+      "subcategoryId": "vegan",
+      "categoryId": "food",
+      "title": "Vegan",
+      "description": "Vegan places in Vilnius",
+      "subcatImg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
+      "places": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "subcategoryId": "vegetarian",
+      "categoryId": "food",
+      "title": "Vegetarian",
+      "description": "Vegetarian places in Vilnius",
+      "subcatImg": "https://images.unsplash.com/photo-1561043433-aaf687c4cf04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "places": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "subcategoryId": "meat",
+      "categoryId": "food",
+      "title": "Meat",
+      "description": "Meat places in Vilnius",
+      "subcatImg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
+      "places": [
+        "f6",
+        "f7",
+        "f8"
+      ]
+    },
+    {
+      "subcategoryId": "museums",
+      "categoryId": "culture",
+      "title": "Museums",
+      "description": "Museums in Vilnius",
+      "subcatImg": "https://madeinvilnius.lt/wp-content/uploads/2018/01/bigstock-National-Museum-Of-Lithuania-40055041-1024x682.jpg",
+      "places": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "subcategoryId": "parks",
+      "categoryId": "culture",
+      "title": "Parks",
+      "description": "Parks in Vilnius",
+      "subcatImg": "https://www.mzirafos.lt/wp-content/uploads/2019/07/DSC00564.jpg",
+      "places": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "subcategoryId": "galleries",
+      "categoryId": "culture",
+      "title": "Galleries",
+      "description": "Galleries in Vilnius",
+      "subcatImg": "https://www.lndm.lt/wp-content/uploads/2020/05/NDG-2-1-scaled.jpg",
+      "places": [
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "subcategoryId": "cultural-heritage",
+      "categoryId": "culture",
+      "title": "Cultural Heritage",
+      "description": "Vilnius Cultural Heritage",
+      "subcatImg": "https://en.madeinvilnius.lt/wp-content/uploads/2019/03/Small-Ghetto-1024x780.jpg",
+      "places": [
+        "c9",
+        "c10"
+      ]
+    },
+    {
+      "subcategoryId": "water",
+      "categoryId": "entertainment",
+      "title": "Water activities",
+      "description": "Water activities in Vilnius",
+      "subcatImg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
+      "places": [
+        "e1",
+        "e4"
+      ]
+    },
+    {
+      "subcategoryId": "sports",
+      "categoryId": "entertainment",
+      "title": "Sports",
+      "description": "Get moving in Vilnius!",
+      "subcatImg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
+      "places": [
+        "e2",
+        "e3"
+      ]
+    },
+    {
+      "subcategoryId": "escape-room",
+      "categoryId": "entertainment",
+      "title": "Escape room",
+      "description": "Up for a mental challenge?!",
+      "subcatImg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
+      "places": [
+        "e5",
+        "e6"
+      ]
+    }
+  ],
   "places": [
     {
       "id": "f1",
-      "category": "Food",
-      "subcategory": "Vegan",
-      "subimg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
       "title": "Rosehip Vegan Bistro",
       "description": "The meaning of “Rosehip” - not just local superfood berry, the wordplay hints on our style - pink and hip - modern and hipster atmosphere. In our restaurant we want to combine not only stylish interior, colorful food, good music, but also all the interesting people that work here and visit.",
       "address": "B. Radvilaitės g. 7, Vilnius",
       "map": "https://goo.gl/maps/tGXfnZMjB9kBZ2F79",
-      "img": "https://www.restoranai.lt/wp-content/uploads/2019/04/Rosehip-vegan-Bistro-1-1024x687.jpg"
+      "placeImg": "https://www.restoranai.lt/wp-content/uploads/2019/04/Rosehip-vegan-Bistro-1-1024x687.jpg"
     },
     {
       "id": "f2",
-      "category": "Food",
-      "subcategory": "Vegan",
-      "subimg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
       "title": "Holigans",
       "description": "Local, eco, vegetarian and vegan restaurant ",
       "address": "Verkių g. 29, Ogmios miestas, Vilnius",
       "map": "https://goo.gl/maps/gheteiQnBrYDuUuk8",
-      "img": "https://www.restoranai.lt/wp-content/uploads/2019/05/holig.jpg"
+      "placeImg": "https://www.restoranai.lt/wp-content/uploads/2019/05/holig.jpg"
     },
     {
       "id": "f3",
-      "category": "Food",
-      "subcategory": "Vegan",
-      "subimg": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80",
       "title": "Vegafe",
       "description": "We only offer a fresh-made meals from natural, non-processed and cruelty-free ingredients. We are following ayurvedic food preparation rules.",
       "address": "Totorių g. 3, Vilnius",
       "map": "https://goo.gl/maps/eAr56j3jM6ThsQVh9",
-      "img": "https://www.restoranai.lt/wp-content/uploads/2019/04/Vegafe-1-1024x683.jpg"
+      "placeImg": "https://www.restoranai.lt/wp-content/uploads/2019/04/Vegafe-1-1024x683.jpg"
     },
     {
       "id": "f4",
-      "category": "Food",
-      "subcategory": "Vegetarian",
-      "subimg": "https://images.unsplash.com/photo-1561043433-aaf687c4cf04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "title": "Ajurvedinė virtuvė",
       "description": "It's a health food restaurant. It offers a healthy vegetarian lunch made from fresh, organic products every day.",
       "address": "Saltoniškių g. 34a, Vilnius",
       "map": "https://goo.gl/maps/4JhQtsJvcqv6Rmkt9",
-      "img": "https://www.restoranai.lt/wp-content/uploads/2019/05/arj.jpg"
+      "placeImg": "https://www.restoranai.lt/wp-content/uploads/2019/05/arj.jpg"
     },
     {
       "id": "f5",
-      "category": "Food",
-      "subcategory": "Vegetarian",
-      "subimg": "https://images.unsplash.com/photo-1561043433-aaf687c4cf04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "title": "Casa la Familia",
       "description": "A vegetarian family pizzeria with Mediterranean flavors and daily lunch specials. Here, pizzas are baked in an authentic oven with burning firewood.",
       "address": "Rūdninkų g. 18, Vilnius",
       "map": "https://goo.gl/maps/Aixh2qPRnoyCtQkf9",
-      "img": "https://imageproxy.wolt.com/menu/menu-images/59cbd4432cee90172c97013e/857d26a4-502c-11eb-b523-4eee2a68c61b_9.casa_la_familia_product_4.jpeg"
+      "placeImg": "https://imageproxy.wolt.com/menu/menu-images/59cbd4432cee90172c97013e/857d26a4-502c-11eb-b523-4eee2a68c61b_9.casa_la_familia_product_4.jpeg"
     },
     {
       "id": "f6",
-      "category": "Food",
-      "subcategory": "Meat",
-      "subimg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
       "title": "Grill London",
       "description": "Grill London is a chain of grill restaurants that visitors love because of its exceptional and responsible take on food quality. All of its steaks are grilled in unique ceramic grills using ecological fuels.",
       "address": "Vilniaus g. 33, Vilnius",
       "map": "https://goo.gl/maps/DewT8fkpvYZGezWJ9",
-      "img": "http://grilllondon.lt/wp-content/uploads/2016/04/D3X_9699-Edit-Edit.jpg"
+      "placeImg": "http://grilllondon.lt/wp-content/uploads/2016/04/D3X_9699-Edit-Edit.jpg"
     },
     {
       "id": "f7",
-      "category": "Food",
-      "subcategory": "Meat",
-      "subimg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
       "title": "Meat Lovers Pub",
       "description": "Steakhouse and burgers",
       "address": "Liejyklos g. 8, Vilnius",
       "map": "https://goo.gl/maps/daE6WHHBsPcEW1yBA",
-      "img": "https://imageproxy.wolt.com/menu/menu-images/5c069744fd721d000ad53ac5/057b5ed8-50d3-11eb-9fbe-c66495d8343d_13.meat_lovers_products_3.jpeg"
+      "placeImg": "https://imageproxy.wolt.com/menu/menu-images/5c069744fd721d000ad53ac5/057b5ed8-50d3-11eb-9fbe-c66495d8343d_13.meat_lovers_products_3.jpeg"
     },
     {
       "id": "f8",
-      "category": "Food",
-      "subcategory": "Meat",
-      "subimg": "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
       "title": "Ramenas ir pagaliukai",
       "description": "Japanese noodle Ramen bar",
       "address": "L. Stuokos-Gucevičiaus g. 7, Vilnius",
       "map": "https://goo.gl/maps/2HQndBDKp3Qaarsi9",
-      "img": "https://imageproxy.wolt.com/menu/menu-images/59e72843095d9e000c226e7f/a2033400-12f3-11ec-b871-567bd72c7efb_salmon.jpeg"
+      "placeImg": "https://imageproxy.wolt.com/menu/menu-images/59e72843095d9e000c226e7f/a2033400-12f3-11ec-b871-567bd72c7efb_salmon.jpeg"
     },
     {
       "id": "e1",
-      "category": "Entertainment",
-      "subcategory": "Water",
-      "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
       "title": "Wake Inn",
       "description": " Didžiausias pripučiamų vandens batutų parkų tinklas Lietuvoje WATER INN kviečia pramogauti ant vandens! Kliūčių ruožas, vandens batutai, laipynės, rungtynės su draugais ir nepamirštamos pramogos pasirinktame mieste! Kvieskite savo draugus, šeimos narius ar kolegas ir laisvalaikį praturtinkite nepamirštamomis pramogomis! ",
       "address": "Ežeraičio g. 2, Vilnius 14200",
       "map": "https://goo.gl/maps/293bpuxah1h2zKrKA",
-      "img": "https://wakeinn.lt/wp-content/uploads/2019/04/6.jpg"
+      "placeImg": "https://wakeinn.lt/wp-content/uploads/2019/04/6.jpg"
     },
     {
       "id": "e2",
-      "category": "Entertainment",
-      "subcategory": "Sport",
-      "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
       "title": "Čiuožimas ledu",
       "description": "Patirkite žiemos linksmybes su AKROPOLIO LEDU, kuris užtikrins maloniai šąlančias nosis ir geras emocijas visai šeimai!",
       "address": "Ozo g. 25, Vilnius 08217",
       "map": "https://goo.gl/maps/ESsuq17ePrRTeTjN8",
-      "img": "https://g4.dcdn.lt/images/pix/asociatyvi-nuotr-88624229.jpg"
+      "placeImg": "https://g4.dcdn.lt/images/pix/asociatyvi-nuotr-88624229.jpg"
     },
     {
       "id": "e3",
-      "category": "Entertainment",
-      "subcategory": "Sport",
-      "subimg": "https://img.freepik.com/free-photo/vanilla-sport-outfit-windbreaker-sneakers-active-minimal-style-urban-fashion-color-lover_161568-3896.jpg?w=2000",
       "title": "Golfas",
       "description": "The V Golf Club, tai golfo klubas, įsikūręs nuostabios lietuviškos gamtos apsuptoje Vilnius Grand Resort teritorijoje, kuriame žaisti golfą bus iššūkis tiek pradedantiesiems, tiek pažengusiems. ",
       "address": "14247",
       "map": "https://goo.gl/maps/1qyJFtuZo8oc8B8XA",
-      "img": "https://img.freepik.com/free-vector/modern-minimal-golfers-great-design-any-purposes-vector-illustration-abstract-different-men-with-golf-clubs_446974-48.jpg?w=2000"
+      "placeImg": "https://img.freepik.com/free-vector/modern-minimal-golfers-great-design-any-purposes-vector-illustration-abstract-different-men-with-golf-clubs_446974-48.jpg?w=2000"
     },
     {
       "id": "e4",
-      "category": "Entertainment",
-      "subcategory": "Water",
-      "subimg": "https://d1s9j44aio5gjs.cloudfront.net/2021/09/swimming_lessons.jpg",
       "title": "Vichi vandens parkas",
       "description": "Čia vasara ir gera nuotaika niekada nesibaigia! ",
       "address": "Ozo g. 14C, Vilnius 08200",
       "map": "https://goo.gl/maps/A9MEq1kTW1KsqNhs9",
-      "img": "https://www.akvapark.lt/assets/Uploads/Images/Pamatykite.jpg"
+      "placeImg": "https://www.akvapark.lt/assets/Uploads/Images/Pamatykite.jpg"
     },
     {
       "id": "e5",
-      "category": "Entertainment",
-      "subcategory": "Escape room",
-      "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
       "title": "Exit Room",
       "description": "Hey smartypants, up for a challenge?",
       "address": "Žemaitijos g. 3, Vilnius 01134",
       "map": "https://goo.gl/maps/VXinCi8Q4J9Vo5Pr8",
-      "img": "https://www.tiimiuritus.ee/assets/images/exitroom/protseduuridlogo.png"
+      "placeImg": "https://www.tiimiuritus.ee/assets/images/exitroom/protseduuridlogo.png"
     },
     {
       "id": "e6",
-      "category": "Entertainment",
-      "subcategory": "Escape room",
-      "subimg": "https://nypost.com/wp-content/uploads/sites/2/2021/07/the-escape-game-prison-break-2.jpg?quality=75&strip=all",
       "title": "Insight Out ",
       "description": "You may be smart, but how well can you think under pressure?",
       "address": "Totorių g. 21a, Vilnius 01121",
       "map": "https://g.page/InsightOut-lt?share",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipOM7JbXeM0eGVDVJSWnyXdB3u6m25RKSB_P3vh0"
+      "placeImg": "https://lh3.googleusercontent.com/p/AF1QipOM7JbXeM0eGVDVJSWnyXdB3u6m25RKSB_P3vh0"
+    },
+    {
+      "id": "c1",
+      "title": "MO Museum",
+      "description": "MO Museum is a modern art museum in Vilnius, Lithuania. The collection of 5,000 modern and contemporary pieces contains major Lithuanian artworks from the 1950s to this day. ",
+      "address": "Pylimo g. 17, Vilnius",
+      "map": "https://goo.gl/maps/XiaSLBqQYJdxqWcd9",
+      "placeImg": "https://welovelithuania.com/content/uploads/2018/09/Norbert-Tukaj_4.jpg"
+    },
+    {
+      "id": "c2",
+      "title": "House of Histories",
+      "description": "The House of Histories is a space which invites visitors to experience history not as something fixed in the past but as integral to the reality we are creating today.",
+      "address": "T. Kosciuškos g. 3, Vilnius",
+      "map": "https://goo.gl/maps/c4pn96Y7t53hhaN46",
+      "placeImg": "https://lnm.lt/wp-content/uploads/2021/04/istoriju-namai-padalinys-6-1536x1152.jpg"
+    },
+    {
+      "id": "c3",
+      "title": "Gediminas Castle Tower",
+      "description": "Gediminas Castle Tower is the most frequently visited branch of the National Museum of Lithuania. Its exhibition invites visitors to learn about the history of Vilnius as the centre of the Grand Duchy of Lithuania, and also to take in the most spectacular panoramic view of the city.",
+      "address": "Arsenalo g. 5, Vilnius",
+      "map": "https://goo.gl/maps/RztNAdSs8UsTUKHf9",
+      "placeImg": "https://www.govilnius.lt/images/5ea6aeeb4a97c4372591f47e?w=750&h=500"
+    },
+    {
+      "id": "c4",
+      "title": "Bernardinai Garden",
+      "description": "The Bernardinai Garden is a public park in the city of Vilnius, Lithuania. It is located on the right bank of the Vilnia River between the Gediminas Tower and Bernardine Monastery and covers over 9 hectares (22 acres). Most of its territory is parkland, divided in the monastery exposition, the botanic exposition and other recreational territory including a children's amusement park. It hosts a variety of festivals and exhibitions, including an amateur chess championship of Ostap Bender.",
+      "address": "B. Radvilaitės g. 8A",
+      "map": "https://goo.gl/maps/a4wiBD5xWzDJzoWW9",
+      "placeImg": "https://www.govilnius.lt/images/5e0f257e0cc3d9528c0d4985?w=750&h=500"
+    },
+    {
+      "id": "c5",
+      "title": "Vingis Park",
+      "description": "Vingis Park is the largest park in Vilnius, Lithuania. Located in a curve of the Neris River, it covers 162 hectares (400 acres). A pedestrian bridge connects the park with Žvėrynas. It is used as a venue for various events, especially concerts and sports competitions. It contains a small botanical garden of Vilnius University, stadium, and an amphitheater.",
+      "address": "M. K. Čiurlionio g. 100, Vilnius",
+      "map": "https://goo.gl/maps/ddx1TU4zFRscVdCV9",
+      "placeImg": "https://www.govilnius.lt/images/5e0f351f0cc3d959570d4a75?w=750&h=500"
+    },
+    {
+      "id": "c6",
+      "title": "Lukiškės Square",
+      "description": "Lukiškės Square is the largest square (about 4 ha) in Vilnius, Lithuania, located in the center of the city. A major street in Vilnius, Gediminas Avenue, passes by the southern border of the square. It is surrounded by many public buildings, including Ministry of Finance, Ministry of Foreign affairs, Appeals Court, Academy of Music and Theater, Church of St. James and St. Phillip, Dominican Monastery with former St. Jacob Hospital. Currently the city of Vilnius holds a contest to redesign the square.",
+      "address": "Lukiškių aikštė",
+      "map": "https://goo.gl/maps/FYavDQksYh2xNWHS8",
+      "placeImg": "https://www.vle.lt/tmp/vle-images/18014_1.jpg"
+    },
+    {
+      "id": "c7",
+      "title": "National Gallery of Art",
+      "description": "NGA is composed of 10 collection exposition halls, a Grand Exhibition Hall, Auditorium, Information Centre, Museum Education Centre, storages, administration premises, bookshop and café.",
+      "address": "Konstitucijos pr. 22, Vilnius",
+      "map": "https://goo.gl/maps/LPNG6qgKKRfcUvGP9",
+      "placeImg": "https://www.lndm.lt/wp-content/uploads/2015/11/NDG.jpg"
+    },
+    {
+      "id": "c8",
+      "title": "Vilnius Picture Gallery",
+      "description": "The gallery is located in the ornate and spacious Chodkevičiai Palace, which features impressive late Classicism interiors. The gallery's permanent exhibition provides a comprehensive introduction to the development of Lithuanian art from the 16th century to the beginning of the 20th century. The collection of work from the 18th and 19th centuries from the Vilnius Art School is of particular value. The gallery regularly hosts exhibitions, cultural evenings and classical music concerts.",
+      "address": "Didžioji g. 4, Vilnius",
+      "map": "https://goo.gl/maps/kEVLWnHhcPGNzv1SA",
+      "placeImg": "https://www.lndm.lt/wp-content/uploads/2015/11/LIMIS.jpg"
+    },
+    {
+      "id": "c9",
+      "title": "The Republic of Užupis",
+      "description": "Užupis is a neighborhood in Vilnius, the capital of Lithuania, largely located in Vilnius's old town,[1] a UNESCO World Heritage Site.In 1997, the residents of the area declared the Republic of Užupis, along with its own flag, unofficial currency, president, cabinet of ministers, a constitution written by Romas Lileikis and Tomas Čepaitis, an anthem, and an army of approximately 11 men.",
+      "address": "https://goo.gl/maps/rgt9gi7xdQgz4Rcu6",
+      "map": "Paupio g. 3A, Vilnius",
+      "placeImg": "https://g1.dcdn.lt/images/pix/uzupis-79163269.jpg"
+    },
+    {
+      "id": "c10",
+      "title": "Church of St. Anne",
+      "description": "St. Anne's Church is a Roman Catholic church in Vilnius' Old Town, on the right bank of the Vilnia River established circa 1495-1500. It is a prominent example of both Flamboyant Gothic and Brick Gothic styles. St. Anne's is a prominent landmark in the Old Town of Vilnius that enabled the district to be included in the list of UNESCO World Heritage sites, and is one of the most interesting examples of Gothic architecture in Lithuania. ",
+      "address": "Maironio g. 8, Vilnius",
+      "map": "https://goo.gl/maps/zSBSPs65zav1S7JJ6",
+      "placeImg": "https://www.govilnius.lt/images/5e260ccc4f5f2930e2c42467?w=750&h=500"
     }
   ]
 }
